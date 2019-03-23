@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb45edf761fa4bf4790ebf2a58d58e6c, type: 3}
+  m_Name: B6. Failed to meet Objectives
+  m_EditorClassIdentifier: 
+  storyText: "Rats, you forgot to do something! You can't board the plane just yet!
+    Despite all the construction and rushing to catch your flight don't forget that
+    you need to: $REPLACEME$.\n\r\nGo back and try again, but hurray!\n\r\n1. Return
+    to the Airport Lobby"
+  nextStates:
+  - {fileID: 11400000, guid: 807510258486faa479bb8ce7059edcc1, type: 2}
+  achievedObjective: 
+  minutesForState: 1

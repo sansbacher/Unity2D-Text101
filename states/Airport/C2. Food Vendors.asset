@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb45edf761fa4bf4790ebf2a58d58e6c, type: 3}
+  m_Name: C2. Food Vendors
+  m_EditorClassIdentifier: 
+  storyText: "There's several different food vendors, though many are closed because
+    of the construction or have debris and dust covering much of their surfaces. Workmen
+    stand around the only open one, a submarine sandwich shop, dripping paint, glue,
+    and other muck all around. Do you dare eat from there? You're running late and
+    you swear one of the subs just \"moved\" on its own. But you are fairly hungry.\r\n\r\nWhat's
+    your pick?\r\n\r\n1. Try ordering a sub sandwich\r\n2. Check if the conveinence
+    has and pre-packaged food\r\n3. Back to the Concessions area\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 1ba1b6076eb034e48a923299fa378c47, type: 2}
+  - {fileID: 11400000, guid: 710b27ff61268dc429d81410480536cd, type: 2}
+  - {fileID: 11400000, guid: 766f1f4b66a202d4c8f6d4b951663a26, type: 2}
+  achievedObjective: 
+  minutesForState: 3

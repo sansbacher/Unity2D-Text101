@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb45edf761fa4bf4790ebf2a58d58e6c, type: 3}
+  m_Name: C3. Convenience store
+  m_EditorClassIdentifier: 
+  storyText: "The conveinience store has the usual selectons of magazines, newspapers,
+    snacks, and small things to keep kids amused on flights. The cashier looks impatient
+    and she gestures towards a sign that says \"Sorry, cash only\". Fumbling in your
+    pockets you find only a few dollars, enough for one, maybe two, items.\r\n\r\nWhat
+    do you buy?\r\n\r\n1. A newspaper to read on the plane\r\n2. That interesting
+    magazine you've been meaning to read\r\n3. Ear plugs in case there's a noisy child
+    on the plane so you can sleep\n4. A plain-looking pre-packaged snack\r\n5. Nothing,
+    just go back to the Concessions area\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: d736b0ce715007c429ba1bf4f95e8277, type: 2}
+  - {fileID: 11400000, guid: 88c3a067bad273d41829ab412177798f, type: 2}
+  - {fileID: 11400000, guid: 88c3a067bad273d41829ab412177798f, type: 2}
+  - {fileID: 11400000, guid: 29b06ee36a5dd1d41beebef7033d4d59, type: 2}
+  - {fileID: 11400000, guid: 766f1f4b66a202d4c8f6d4b951663a26, type: 2}
+  achievedObjective: 
+  minutesForState: 3

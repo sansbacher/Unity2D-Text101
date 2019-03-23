@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb45edf761fa4bf4790ebf2a58d58e6c, type: 3}
+  m_Name: A0. Outside Airport
+  m_EditorClassIdentifier: 
+  storyText: "Your have just arrived via taxi to the airport so you can begin your
+    dream vacation. You are at the passenger drop off area.  You have to get to your
+    plane, you haven't had any lunch, and you have a full bladder.  Be very careful,
+    there is a lot of construction going on all around the airport.  Keep an eye on
+    the clock, your plane departs in 36 minutes! Don't be late!\n\r\nWhat do you want
+    to do?\r\n\r\n1. Pay the taxi driver and get out\r\n2. Pay the taxi driver, wait
+    for change, then get out\r\n3. Stay in the taxi"
+  nextStates:
+  - {fileID: 11400000, guid: 34c3b91a7a0efc04e91d1973132be4b2, type: 2}
+  - {fileID: 11400000, guid: d64b3be880f22d14184e6ec354cadbe3, type: 2}
+  - {fileID: 11400000, guid: b95ff1a1ab936a54a8532a1c824c1f65, type: 2}
+  achievedObjective: 
+  minutesForState: 1

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb45edf761fa4bf4790ebf2a58d58e6c, type: 3}
+  m_Name: S1. On the plane
+  m_EditorClassIdentifier: 
+  storyText: "Congrats, you made it on the plane! You're well on your way to your
+    much deserved dream vacation! All you need to do now is sit back, relax, and hope
+    for an uneventful flight...\r\n\r\nPress:\r\n\r\n1. To Continue..."
+  nextStates:
+  - {fileID: 11400000, guid: d35a4a4094e27af499a1e4993b09b14c, type: 2}
+  achievedObjective: 
+  minutesForState: 0

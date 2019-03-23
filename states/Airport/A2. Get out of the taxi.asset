@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb45edf761fa4bf4790ebf2a58d58e6c, type: 3}
+  m_Name: A2. Get out of the taxi
+  m_EditorClassIdentifier: 
+  storyText: "The taxi driver tells you it will be $48.50 for the fare, you give him
+    $70 and tell him to keep $10 for himself. He thanks you and give you back your
+    change and says \"don't forget your suitcase!\" as you're stepping out of the
+    taxi. You reach down to the floor and grab your bag.\r\n\r\nWhat do you want to
+    do?\r\n\r\n1. Get moving into the airport\r\n2. Stay and chat with the friendly
+    taxi driver\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 807510258486faa479bb8ce7059edcc1, type: 2}
+  - {fileID: 11400000, guid: 320c7a96ee6c4404aa279788990a050b, type: 2}
+  achievedObjective: 
+  minutesForState: 5

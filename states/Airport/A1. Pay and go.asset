@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb45edf761fa4bf4790ebf2a58d58e6c, type: 3}
+  m_Name: A1. Pay and go
+  m_EditorClassIdentifier: 
+  storyText: "You throw a $50 bill towards the driver as you step out of the taxi,
+    shouting \"keep the change!\" before slamming the door shut. As you stand on the
+    side of the curb you realise you left your suitcase in the taxi!\r\n\r\nWhat do
+    you want to do?\r\n\r\n1. Continue into the airport anyway\r\n2. Grab another
+    taxi and follow in hot pursuit!\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 807510258486faa479bb8ce7059edcc1, type: 2}
+  - {fileID: 11400000, guid: 320c7a96ee6c4404aa279788990a050b, type: 2}
+  achievedObjective: 
+  minutesForState: 1

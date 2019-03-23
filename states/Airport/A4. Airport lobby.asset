@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb45edf761fa4bf4790ebf2a58d58e6c, type: 3}
+  m_Name: A4. Airport lobby
+  m_EditorClassIdentifier: 
+  storyText: "You are in the airport lobby, there's people and construction workers
+    everywhere. Ahead of you is a wall of Arrival and Departure screens, to the left
+    are signs for Gates G1 to G4, off to the right appears to be a Concession and
+    Amenities area.\r\n\r\nWhat do you want to do?\r\n\r\n1. Head right to the Departure
+    Gates\r\n2. Consult the Departure and Arrival screens\r\n3. Check out the Concessions
+    and Ameneties area"
+  nextStates:
+  - {fileID: 11400000, guid: 23d9dd8bb27e8ef46b614d42202113e0, type: 2}
+  - {fileID: 11400000, guid: cc1a4fb43e748cd448604e7cc805e899, type: 2}
+  - {fileID: 11400000, guid: 766f1f4b66a202d4c8f6d4b951663a26, type: 2}
+  achievedObjective: 
+  minutesForState: 1

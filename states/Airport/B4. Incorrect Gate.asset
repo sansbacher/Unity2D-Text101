@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb45edf761fa4bf4790ebf2a58d58e6c, type: 3}
+  m_Name: B4. Incorrect Gate
+  m_EditorClassIdentifier: 
+  storyText: "You're stuck waiting in line. There's people all around you, you can
+    barely move. Through the commotion you can just make out that some flight's departure
+    time has been bumped up and they're about to depart. Names are called over the
+    public address system. Somewhere a child cries. A heavy foot steps on your toe.
+    The line could be moving, or maybe it's just the Earth's rotation\r\n\r\nWhat
+    now?\r\n\r\n1. Keep waiting\r\n2. Fight your way to to the front of the line\r\n3.
+    Go back to the Departures Hall"
+  nextStates:
+  - {fileID: 11400000}
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: 23d9dd8bb27e8ef46b614d42202113e0, type: 2}
+  achievedObjective: 
+  minutesForState: 5

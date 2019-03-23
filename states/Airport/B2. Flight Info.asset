@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb45edf761fa4bf4790ebf2a58d58e6c, type: 3}
+  m_Name: B2. Flight Info
+  m_EditorClassIdentifier: 
+  storyText: "You pull out your phone to check your ticket: \"Flight NV965\" -- you
+    scan the Departures screen looking for your flight, it's already landed and will
+    be boarding soon! ... Your eyes dart across the screen... at Gate G$REPLACEME$!\r\n\r\nWhat
+    do you want to do?\r\n\r\n1. Head right to the Departure Gates\r\n2. Go back to
+    the lobby\r\n\n"
+  nextStates:
+  - {fileID: 11400000, guid: 23d9dd8bb27e8ef46b614d42202113e0, type: 2}
+  - {fileID: 11400000, guid: 807510258486faa479bb8ce7059edcc1, type: 2}
+  achievedObjective: 
+  minutesForState: 2

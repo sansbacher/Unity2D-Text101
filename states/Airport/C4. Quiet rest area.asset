@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb45edf761fa4bf4790ebf2a58d58e6c, type: 3}
+  m_Name: C4. Quiet rest area
+  m_EditorClassIdentifier: 
+  storyText: "For once in this entire time in the airport you find some peace and
+    quiet! The chairs must be the new ones they are installing as they are very comfy.
+    The near-by stores aren't open so there's almost nobody else around.\r\n\r\nWhat
+    to do? What to do?\r\n\r\n1. Continue resting\r\n2. Finally get moving\r\n\r"
+  nextStates:
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: 320c7a96ee6c4404aa279788990a050b, type: 2}
+  achievedObjective: 
+  minutesForState: 10
