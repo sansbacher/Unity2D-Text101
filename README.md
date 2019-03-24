@@ -3,9 +3,9 @@
 
 This was my Text101 project, with several additions.
 
-##"I'll Flyaway"
+## "I'll Flyaway"
 
-I'm less into designing and more into programming so I added some PUZZLE / CHALLENGE elements! There's a clock (you only have a time limit), the gate is randomized (you need to discover it), and there's 2 other objectives you must complete before boarding. Good luck!
+I'm less into designing and more into programming so I added some *PUZZLE / CHALLENGE* elements! There's a clock (you only have a time limit), the gate is randomized (you need to discover it), and there's 2 other objectives you must complete before boarding. Good luck!
 
 There's some code and screenshots from the Unity Editor to show what I did. Hopefully you can re-assemble the came from the various bits and pieces if you'd like rebuild it.
 
