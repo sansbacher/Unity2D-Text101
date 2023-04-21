@@ -15,4 +15,4 @@ There's a clock that increments with each move/change-of-state (you only have 36
 
 (credits for the airport text adventure idea go to an old C++ tutorial for DOS from years ago by Coronado Enterprises I stumbled upon once. But the implementation in Unity using 'States' is mine)
 
-This is for Unity 2018.
+This is for Unity 2018, not anything newer. (but could be used with some modifications)
